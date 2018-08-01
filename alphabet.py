@@ -9,8 +9,14 @@
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
 
-ch = raw_input("enter your input")
-if len(ch)>0 and ch.isalpha():
-    print("alphabet")
+a = input('Enter a word:')
+b = a.lower()
+first = b[0]
+
+if len(a) > 0 and a.isalpha():
+    if first in 'aeiou':
+        print "vowel"
+    else:
+        print "consonant"
 else:
-    print("NO")
+    print "invalid"

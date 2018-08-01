@@ -11,11 +11,11 @@
 
 val= int(input("enter your number"))
 if(val>0):
-    print("positive")
+    print("the number is positive")
 elif(val==0):
-    print("zero")
+    print("it is zero")
 else:
-    print("negative")
+    print("the number is negative")
 
 
 

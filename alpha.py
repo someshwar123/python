@@ -1,5 +1,5 @@
 #-------------------------------------------------------------------------------
-# Name:        module1
+# Name:        module2
 # Purpose:
 #
 # Author:      Somesh
@@ -9,15 +9,8 @@
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
 
-val= int(input("enter your number"))
-if(val>0):
-    print("positive")
-elif(val==0):
-    print("zero")
+ch = raw_input("enter your input")
+if len(ch)>0 and ch.isalpha():
+    print("alphabet")
 else:
-    print("negative")
-
-
-
-
-
+    print("NO")
