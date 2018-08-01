@@ -8,15 +8,14 @@
 # Copyright:   (c) Somesh 2018
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
+a = raw_input("Enter a letter")
+b = a.lower()
+first = b[0]
 
-A=int(input("enter the A value"))
-D=int(input("enter the D value"))
-N=int(input("enter the N value"))
-
-i=0
-while(N<i):
-   c=(A+N*D)
-   N=N-1
-   i=i+1
-   print (c)
-
+if len(a)>0 and a.isalpha():
+    if first in 'aeiou':
+        print "vowel"
+    else:
+        print "consonant"
+else:
+    print "invalid"
