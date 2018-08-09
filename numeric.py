@@ -4,12 +4,12 @@
 #
 # Author:      Somesh
 #
-# Created:     30/07/2018
+# Created:     01/08/2018
 # Copyright:   (c) Somesh 2018
 # Licence:     <your licence>
-#----------------------------------------------------------------------------
-N=int(input("enter the input value"))
-sum=0
-for i in range (N):
-    sum=sum+N
-    print(sum)
+#-------------------------------------------------------------------------------
+ch = raw_input("enter your input")
+if ch.isnumeric():
+    print("yes")
+else:
+    print("no")

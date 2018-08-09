@@ -1,31 +1,19 @@
 #-------------------------------------------------------------------------------
-# Name:        module2
+# Name:        module1
 # Purpose:
 #
 # Author:      Somesh
 #
-# Created:     31/07/2018
+# Created:     01/08/2018
 # Copyright:   (c) Somesh 2018
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
-array = []
-n = int(raw_input('Enter how many elements you want: '))
-for i in range(0, n):
-    x = raw_input('Enter the numbers into the array: ')
-    array.append(x)
-
-    print(array[i],i)
-
-
-
-
-
-
-
-
-
-
-
+ho = raw_input("Enter hours and minutes here: ").split()
+print(ho)
+ho1 = raw_input("Enter hours and minutes here: ").split()
+print(ho1)
+tot=ho-ho1
+print("total")
 
 
 
