@@ -17,7 +17,7 @@ even=[]
 odd=[]
 for j in a:
     if(j%2==0):
-        even.append(j)
+        even.append(a)
     else:
         odd.append(j)
 print("The even list",even)

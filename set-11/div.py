@@ -8,14 +8,13 @@
 # Copyright:   (c) Somesh 2018
 # Licence:     <your licence>
 #--------------------------------------------------------------------------
-def function(div):
-      if(div%2==0):
-        return (div//2)
+N=int(raw_input("enter the input value"))
+while(N%2==0):
+     N=N/2
+     print(N)
 
 
 
 
 
-print(function(div))
-div=int(raw_input("enter the input value"))
 

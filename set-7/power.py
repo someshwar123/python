@@ -1,13 +1,19 @@
 #-------------------------------------------------------------------------------
-# Name:        module1
+# Name:        module2
 # Purpose:
 #
 # Author:      Somesh
 #
-# Created:     14/08/2018
+# Created:     16/08/2018
 # Copyright:   (c) Somesh 2018
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
-a,b=map(int,raw_input().split(" "))
-c=a/b
-print(c)
+N=int(raw_input("enter the input value"))
+A=N**2
+for i in range(2,A):
+    C=i**2
+    if(N==C):
+       d=C*2
+       print(d)
+
+

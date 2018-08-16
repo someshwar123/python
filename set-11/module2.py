@@ -1,13 +1,14 @@
 #-------------------------------------------------------------------------------
-# Name:        module1
+# Name:        module2
 # Purpose:
 #
 # Author:      Somesh
 #
-# Created:     14/08/2018
+# Created:     16/08/2018
 # Copyright:   (c) Somesh 2018
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
-a,b=map(int,raw_input().split(" "))
-c=a/b
-print(c)
+
+a=str(raw_input('enrre'))
+for i in range(0,len(a)):
+    print a[i]
