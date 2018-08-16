@@ -11,5 +11,5 @@
 N=int(input("enter the input value"))
 sum=0
 for i in range (N):
-    sum=sum+N
-    print(sum)
+    sum=sum+i
+print(sum)

@@ -4,15 +4,16 @@
 #
 # Author:      Somesh
 #
-# Created:     31/07/2018
+# Created:     10/08/2018
 # Copyright:   (c) Somesh 2018
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
 
-array=[]
-a= int(input("enter the no of elements"))
-for i in range (0,a):
-     b=int(input("enter the array value"))
-     array.append(b)
-     array.sort()
-print("the middle element is",array[b/2])
+str=raw_input("enter the string value")
+
+word=1
+for i in str:
+
+    if(i=='.'):
+        word=word+1
+print(word)

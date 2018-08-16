@@ -4,15 +4,18 @@
 #
 # Author:      Somesh
 #
-# Created:     31/07/2018
+# Created:     13/08/2018
 # Copyright:   (c) Somesh 2018
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
 
 array=[]
-a= int(input("enter the no of elements"))
-for i in range (0,a):
-     b=int(input("enter the array value"))
-     array.append(b)
-     array.sort()
-print("the middle element is",array[b/2])
+K=int(input("enter the elements"))
+count=0
+N=int(input("enter the total elements"))
+for i in range (N):
+    n=int(input("enter the values"))
+    array.append(n)
+    if(array[i]==K):
+       count=count+1
+print(count)

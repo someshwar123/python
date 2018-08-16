@@ -4,15 +4,21 @@
 #
 # Author:      Somesh
 #
-# Created:     31/07/2018
+# Created:     14/08/2018
 # Copyright:   (c) Somesh 2018
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
+a=[]
+n=raw_input("Enter number of elements:")
+for i in (n):
+  a.append(n)
 
-array=[]
-a= int(input("enter the no of elements"))
-for i in range (0,a):
-     b=int(input("enter the array value"))
-     array.append(b)
-     array.sort()
-print("the middle element is",array[b/2])
+even=[]
+odd=[]
+for j in a:
+    if(j%2==0):
+        even.append(j)
+    else:
+        odd.append(j)
+print("The even list",even)
+print("The odd list",odd)

@@ -1,18 +1,17 @@
 #-------------------------------------------------------------------------------
-# Name:        module1
+# Name:        module2
 # Purpose:
 #
 # Author:      Somesh
 #
-# Created:     31/07/2018
+# Created:     13/08/2018
 # Copyright:   (c) Somesh 2018
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
-
-array=[]
-a= int(input("enter the no of elements"))
-for i in range (0,a):
-     b=int(input("enter the array value"))
-     array.append(b)
-     array.sort()
-print("the middle element is",array[b/2])
+N=int(input("enter the first value"))
+M=int(input("enter the second value"))
+a=N+M
+if(a%2==0):
+    print("even")
+else:
+    print("odd")

@@ -1,18 +1,24 @@
 #-------------------------------------------------------------------------------
-# Name:        module1
+# Name:        module3
 # Purpose:
 #
 # Author:      Somesh
 #
-# Created:     31/07/2018
+# Created:     10/08/2018
 # Copyright:   (c) Somesh 2018
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
+def fibonocci(n):
+   if(n<=1):
+       return n
+   else:
+      return(fibonocci(n-1) + fibonocci(n-2))
+n=input("enter n value")
+for i in range(n):
+     print(fibonocci(i))
 
-array=[]
-a= int(input("enter the no of elements"))
-for i in range (0,a):
-     b=int(input("enter the array value"))
-     array.append(b)
-     array.sort()
-print("the middle element is",array[b/2])
+
+
+
+
+

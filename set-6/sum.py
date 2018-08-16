@@ -4,15 +4,17 @@
 #
 # Author:      Somesh
 #
-# Created:     31/07/2018
+# Created:     12/08/2018
 # Copyright:   (c) Somesh 2018
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
+a=input("enter the input elements")
+tot=0
+while(a>0):
+    sum=a%10
+    tot=tot+sum
+    a=a/10
+print(tot)
 
-array=[]
-a= int(input("enter the no of elements"))
-for i in range (0,a):
-     b=int(input("enter the array value"))
-     array.append(b)
-     array.sort()
-print("the middle element is",array[b/2])
+
+

@@ -4,15 +4,16 @@
 #
 # Author:      Somesh
 #
-# Created:     31/07/2018
+# Created:     13/08/2018
 # Copyright:   (c) Somesh 2018
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
+N=int(input("enter the N value"))
+L=int(input("enter the l value"))
+R=int(input("enter the R value"))
+for i in range(L,R):
+    if(i==N):
+      print(i)
+print("yes")
 
-array=[]
-a= int(input("enter the no of elements"))
-for i in range (0,a):
-     b=int(input("enter the array value"))
-     array.append(b)
-     array.sort()
-print("the middle element is",array[b/2])
+

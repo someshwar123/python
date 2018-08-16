@@ -4,15 +4,18 @@
 #
 # Author:      Somesh
 #
-# Created:     31/07/2018
+# Created:     30/07/2018
 # Copyright:   (c) Somesh 2018
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
+a = raw_input("Enter a letter")
+b = a.lower()
+first = b[0]
 
-array=[]
-a= int(input("enter the no of elements"))
-for i in range (0,a):
-     b=int(input("enter the array value"))
-     array.append(b)
-     array.sort()
-print("the middle element is",array[b/2])
+if len(a)>0 and a.isalpha():
+    if first in 'aeiou':
+        print "vowel"
+    else:
+        print "consonant"
+else:
+    print "invalid"

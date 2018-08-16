@@ -1,18 +1,17 @@
 #-------------------------------------------------------------------------------
-# Name:        module1
+# Name:        module3
 # Purpose:
 #
 # Author:      Somesh
 #
-# Created:     31/07/2018
+# Created:     10/08/2018
 # Copyright:   (c) Somesh 2018
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
 
-array=[]
-a= int(input("enter the no of elements"))
-for i in range (0,a):
-     b=int(input("enter the array value"))
-     array.append(b)
-     array.sort()
-print("the middle element is",array[b/2])
+a=raw_input("enter the number value")
+count=0
+for i in a:
+    if(a.isnumeric()):
+       count=count+1
+print(count)

@@ -4,15 +4,14 @@
 #
 # Author:      Somesh
 #
-# Created:     31/07/2018
+# Created:     13/08/2018
 # Copyright:   (c) Somesh 2018
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
+a=str(raw_input("enter the string"))
+str_1=reversed(a)
+if list(str_1)==list(a):
+    print("it is palindrome")
+else:
+    print("it is not palindrome")
 
-array=[]
-a= int(input("enter the no of elements"))
-for i in range (0,a):
-     b=int(input("enter the array value"))
-     array.append(b)
-     array.sort()
-print("the middle element is",array[b/2])

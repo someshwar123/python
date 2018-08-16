@@ -4,15 +4,16 @@
 #
 # Author:      Somesh
 #
-# Created:     31/07/2018
+# Created:     30/07/2018
 # Copyright:   (c) Somesh 2018
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
-
-array=[]
-a= int(input("enter the no of elements"))
-for i in range (0,a):
-     b=int(input("enter the array value"))
-     array.append(b)
-     array.sort()
-print("the middle element is",array[b/2])
+a=int(input("Enter number: "))
+k=0
+for i in range(2,a+1):
+    if(a%i==0):
+        k=k+1
+if(k<=0):
+    print("Number is prime")
+else:
+    print("Number isn't prime")

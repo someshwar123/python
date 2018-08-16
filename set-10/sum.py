@@ -4,15 +4,17 @@
 #
 # Author:      Somesh
 #
-# Created:     31/07/2018
+# Created:     15/08/2018
 # Copyright:   (c) Somesh 2018
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
 
 array=[]
-a= int(input("enter the no of elements"))
-for i in range (0,a):
-     b=int(input("enter the array value"))
-     array.append(b)
-     array.sort()
-print("the middle element is",array[b/2])
+N=int(input("enter the total elements"))
+sum=0
+for i in range (N):
+    n=int(input("enter the values"))
+    array.append(n)
+    sum=sum+array[i]
+
+print(sum)

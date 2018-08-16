@@ -4,15 +4,20 @@
 #
 # Author:      Somesh
 #
-# Created:     31/07/2018
+# Created:     12/08/2018
 # Copyright:   (c) Somesh 2018
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
 
-array=[]
-a= int(input("enter the no of elements"))
-for i in range (0,a):
-     b=int(input("enter the array value"))
-     array.append(b)
-     array.sort()
-print("the middle element is",array[b/2])
+a=raw_input("enter the string")
+b=raw_input("enter the string")
+count1=0
+count2=0
+for i in a:
+    count1=count1+1
+for i in b:
+    count2=count2+1
+if(count1>count2):
+    print(a ,"is greater")
+else:
+    print(b ,"is greater")

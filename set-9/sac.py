@@ -4,15 +4,13 @@
 #
 # Author:      Somesh
 #
-# Created:     31/07/2018
+# Created:     14/08/2018
 # Copyright:   (c) Somesh 2018
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
-
-array=[]
-a= int(input("enter the no of elements"))
-for i in range (0,a):
-     b=int(input("enter the array value"))
-     array.append(b)
-     array.sort()
-print("the middle element is",array[b/2])
+print("Input the value of l ,b ,h")
+L,B,H= map(int, raw_input().split())
+sa = L*B*H
+cu= (2*L*B + 2*B*H+ 2*H*L)
+print("The value of x & y are: ",L,B,H)
+print("the value of surface area  and cuboid",sa,cu)
